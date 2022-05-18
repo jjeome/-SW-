@@ -20,7 +20,7 @@ public class 삼각형면적 {
 		//면적
 		area = (w*h)/2;
 		
-		System.out.printf("\n밑변 : %2.2f \n높이 : %2.2f \n면적 : %.2f", w,h,area);
+		System.out.printf("\n밑변 : %.2f \n높이 : %.2f \n면적 : %.2f", w,h,area);
 	}
 
 }
