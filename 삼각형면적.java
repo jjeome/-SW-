@@ -18,7 +18,7 @@ public class 삼각형면적 {
 		h = Double.parseDouble(scan.nextLine());
 		
 		//면적
-		area = w*h;
+		area = (w*h)/2;
 		
 		System.out.printf("\n밑변 : %2.2f \n높이 : %2.2f \n면적 : %.2f", w,h,area);
 	}
