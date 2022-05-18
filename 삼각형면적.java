@@ -19,7 +19,6 @@ public class 삼각형면적 {
 		
 		//면적
 		area = w*h;
-		System.out.printf("면적 : %.2f", area);
 		
 		System.out.printf("\n밑변 : %2.2f \n높이 : %2.2f \n면적 : %.2f", w,h,area);
 	}
