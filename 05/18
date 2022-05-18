@@ -1,0 +1,60 @@
+----------------------------------------------------------
+IDE - eclipse.org
+workspace
+oracle  :  open
+JDK : developer
+JRE : runtime
+---------------------------------------------------------
+환경변수 : path, JAVA_HOME 설정
+JDK : 자바개발도구
+
+            javac 소스파일                    java 클래스명
+소스(java) -> 컴파일 -> 바이트(.class) -> 기계어 -> 실행 
+
+
+ascii-code  : A 65
+              a 97
+              0 48    4 -> 52
+	      
+
+한글       ksc5601  -> utf-8   AC00~~
+
+--------------
+암기
+--------------
+1. 데이터 타입
+   - 기본타입 8가지
+   char 
+   byte short int long 
+   float double 
+   boolean
+
+   - 참조형
+   String	
+ 
+2. 타입변환
+   - 자동형변환
+   
+   - 강제형변환  : 큰값을 작은그릇(변수) 담을때   
+   float d = (float) 더블변수;
+
+   - int -> String
+   String s = String.valueOf(정수형변수)     
+
+   - String -> int
+   int a = Integer.parseInt(string변수)
+
+3.키보드 입력
+  - 키보드 키(a,1)
+  System.in.rea();
+
+  - 키보드로 문자열 입력
+  String s =  scan.nextLine() ;
+
+  - 키보드로 정수값 입력
+  Scanner scan = new Scanner(System.in);
+  int w = Integer.parseInt( scan.nextLine() ) ;
+
+ - 키보드로 실수값 입력
+  Scanner scan = new Scanner(System.in);
+  double w = Double.parseDouble( scan.nextLine() ) ;
