@@ -26,6 +26,7 @@ public class Bank {
 			} else {
 				System.out.println("프로그램 종료");
 			}
+                        break;
 		}
 		
 		/*int result;
